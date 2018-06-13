@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750EECEF20CE114A00640F16 /* ReplicatorHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 750EECEE20CE114A00640F16 /* ReplicatorHudView.m */; };
+		750EECF220CE239A00640F16 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 750EECF120CE239A00640F16 /* LoadingView.m */; };
+		7553CC1820CA4E9000140A3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC1720CA4E9000140A3E /* AppDelegate.m */; };
+		7553CC1B20CA4E9000140A3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC1A20CA4E9000140A3E /* ViewController.m */; };
+		7553CC1E20CA4E9000140A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7553CC1C20CA4E9000140A3E /* Main.storyboard */; };
+		7553CC2020CA4E9000140A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7553CC1F20CA4E9000140A3E /* Assets.xcassets */; };
+		7553CC2320CA4E9000140A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7553CC2120CA4E9000140A3E /* LaunchScreen.storyboard */; };
+		7553CC2620CA4E9000140A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC2520CA4E9000140A3E /* main.m */; };
+		7553CC3020CA4E9000140A3E /* ReplicatorAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC2F20CA4E9000140A3E /* ReplicatorAnimationTests.m */; };
+		7553CC3B20CA4E9000140A3E /* ReplicatorAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC3A20CA4E9000140A3E /* ReplicatorAnimationUITests.m */; };
+		7553CC4A20CA689800140A3E /* ReplicatorMusicAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC4920CA689800140A3E /* ReplicatorMusicAnimationView.m */; };
+		75B5DDB320CFB16700BF250D /* WordLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B5DDB220CFB16700BF250D /* WordLoadingView.m */; };
+		75B5DDB620CFDCA200BF250D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B5DDB520CFDCA200BF250D /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7553CC2C20CA4E9000140A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7553CC0B20CA4E8F00140A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7553CC1220CA4E8F00140A3E;
+			remoteInfo = ReplicatorAnimation;
+		};
+		7553CC3720CA4E9000140A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7553CC0B20CA4E8F00140A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7553CC1220CA4E8F00140A3E;
+			remoteInfo = ReplicatorAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		750EECED20CE114A00640F16 /* ReplicatorHudView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplicatorHudView.h; sourceTree = "<group>"; };
+		750EECEE20CE114A00640F16 /* ReplicatorHudView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorHudView.m; sourceTree = "<group>"; };
+		750EECF020CE239A00640F16 /* LoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		750EECF120CE239A00640F16 /* LoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		7553CC1320CA4E9000140A3E /* ReplicatorAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReplicatorAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7553CC1620CA4E9000140A3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7553CC1720CA4E9000140A3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7553CC1920CA4E9000140A3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7553CC1A20CA4E9000140A3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7553CC1D20CA4E9000140A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7553CC1F20CA4E9000140A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7553CC2220CA4E9000140A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7553CC2420CA4E9000140A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7553CC2520CA4E9000140A3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7553CC2B20CA4E9000140A3E /* ReplicatorAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplicatorAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7553CC2F20CA4E9000140A3E /* ReplicatorAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorAnimationTests.m; sourceTree = "<group>"; };
+		7553CC3120CA4E9000140A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7553CC3620CA4E9000140A3E /* ReplicatorAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplicatorAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7553CC3A20CA4E9000140A3E /* ReplicatorAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorAnimationUITests.m; sourceTree = "<group>"; };
+		7553CC3C20CA4E9000140A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7553CC4820CA689800140A3E /* ReplicatorMusicAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplicatorMusicAnimationView.h; sourceTree = "<group>"; };
+		7553CC4920CA689800140A3E /* ReplicatorMusicAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorMusicAnimationView.m; sourceTree = "<group>"; };
+		75B5DDB120CFB16700BF250D /* WordLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordLoadingView.h; sourceTree = "<group>"; };
+		75B5DDB220CFB16700BF250D /* WordLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordLoadingView.m; sourceTree = "<group>"; };
+		75B5DDB520CFDCA200BF250D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7553CC1020CA4E8F00140A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B5DDB620CFDCA200BF250D /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7553CC2820CA4E9000140A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7553CC3320CA4E9000140A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7553CC0A20CA4E8F00140A3E = {
+			isa = PBXGroup;
+			children = (
+				7555A38320D126B2003AABB4 /* YHLoadingAnimation */,
+				7553CC1520CA4E9000140A3E /* ReplicatorAnimation */,
+				7553CC2E20CA4E9000140A3E /* ReplicatorAnimationTests */,
+				7553CC3920CA4E9000140A3E /* ReplicatorAnimationUITests */,
+				7553CC1420CA4E9000140A3E /* Products */,
+				75B5DDB420CFDCA100BF250D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7553CC1420CA4E9000140A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7553CC1320CA4E9000140A3E /* ReplicatorAnimation.app */,
+				7553CC2B20CA4E9000140A3E /* ReplicatorAnimationTests.xctest */,
+				7553CC3620CA4E9000140A3E /* ReplicatorAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7553CC1520CA4E9000140A3E /* ReplicatorAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7553CC1620CA4E9000140A3E /* AppDelegate.h */,
+				7553CC1720CA4E9000140A3E /* AppDelegate.m */,
+				7553CC1920CA4E9000140A3E /* ViewController.h */,
+				7553CC1A20CA4E9000140A3E /* ViewController.m */,
+				7553CC1C20CA4E9000140A3E /* Main.storyboard */,
+				7553CC1F20CA4E9000140A3E /* Assets.xcassets */,
+				7553CC2120CA4E9000140A3E /* LaunchScreen.storyboard */,
+				7553CC2420CA4E9000140A3E /* Info.plist */,
+				7553CC2520CA4E9000140A3E /* main.m */,
+			);
+			path = ReplicatorAnimation;
+			sourceTree = "<group>";
+		};
+		7553CC2E20CA4E9000140A3E /* ReplicatorAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7553CC2F20CA4E9000140A3E /* ReplicatorAnimationTests.m */,
+				7553CC3120CA4E9000140A3E /* Info.plist */,
+			);
+			path = ReplicatorAnimationTests;
+			sourceTree = "<group>";
+		};
+		7553CC3920CA4E9000140A3E /* ReplicatorAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7553CC3A20CA4E9000140A3E /* ReplicatorAnimationUITests.m */,
+				7553CC3C20CA4E9000140A3E /* Info.plist */,
+			);
+			path = ReplicatorAnimationUITests;
+			sourceTree = "<group>";
+		};
+		7555A38320D126B2003AABB4 /* YHLoadingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7553CC4820CA689800140A3E /* ReplicatorMusicAnimationView.h */,
+				7553CC4920CA689800140A3E /* ReplicatorMusicAnimationView.m */,
+				75B5DDB120CFB16700BF250D /* WordLoadingView.h */,
+				75B5DDB220CFB16700BF250D /* WordLoadingView.m */,
+				750EECED20CE114A00640F16 /* ReplicatorHudView.h */,
+				750EECEE20CE114A00640F16 /* ReplicatorHudView.m */,
+				750EECF020CE239A00640F16 /* LoadingView.h */,
+				750EECF120CE239A00640F16 /* LoadingView.m */,
+			);
+			path = YHLoadingAnimation;
+			sourceTree = "<group>";
+		};
+		75B5DDB420CFDCA100BF250D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75B5DDB520CFDCA200BF250D /* CoreText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7553CC1220CA4E8F00140A3E /* ReplicatorAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7553CC3F20CA4E9000140A3E /* Build configuration list for PBXNativeTarget "ReplicatorAnimation" */;
+			buildPhases = (
+				7553CC0F20CA4E8F00140A3E /* Sources */,
+				7553CC1020CA4E8F00140A3E /* Frameworks */,
+				7553CC1120CA4E8F00140A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReplicatorAnimation;
+			productName = ReplicatorAnimation;
+			productReference = 7553CC1320CA4E9000140A3E /* ReplicatorAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7553CC2A20CA4E9000140A3E /* ReplicatorAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7553CC4220CA4E9000140A3E /* Build configuration list for PBXNativeTarget "ReplicatorAnimationTests" */;
+			buildPhases = (
+				7553CC2720CA4E9000140A3E /* Sources */,
+				7553CC2820CA4E9000140A3E /* Frameworks */,
+				7553CC2920CA4E9000140A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7553CC2D20CA4E9000140A3E /* PBXTargetDependency */,
+			);
+			name = ReplicatorAnimationTests;
+			productName = ReplicatorAnimationTests;
+			productReference = 7553CC2B20CA4E9000140A3E /* ReplicatorAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7553CC3520CA4E9000140A3E /* ReplicatorAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7553CC4520CA4E9000140A3E /* Build configuration list for PBXNativeTarget "ReplicatorAnimationUITests" */;
+			buildPhases = (
+				7553CC3220CA4E9000140A3E /* Sources */,
+				7553CC3320CA4E9000140A3E /* Frameworks */,
+				7553CC3420CA4E9000140A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7553CC3820CA4E9000140A3E /* PBXTargetDependency */,
+			);
+			name = ReplicatorAnimationUITests;
+			productName = ReplicatorAnimationUITests;
+			productReference = 7553CC3620CA4E9000140A3E /* ReplicatorAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7553CC0B20CA4E8F00140A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = daqsoft;
+				TargetAttributes = {
+					7553CC1220CA4E8F00140A3E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7553CC2A20CA4E9000140A3E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7553CC1220CA4E8F00140A3E;
+					};
+					7553CC3520CA4E9000140A3E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7553CC1220CA4E8F00140A3E;
+					};
+				};
+			};
+			buildConfigurationList = 7553CC0E20CA4E8F00140A3E /* Build configuration list for PBXProject "ReplicatorAnimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7553CC0A20CA4E8F00140A3E;
+			productRefGroup = 7553CC1420CA4E9000140A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7553CC1220CA4E8F00140A3E /* ReplicatorAnimation */,
+				7553CC2A20CA4E9000140A3E /* ReplicatorAnimationTests */,
+				7553CC3520CA4E9000140A3E /* ReplicatorAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7553CC1120CA4E8F00140A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7553CC2320CA4E9000140A3E /* LaunchScreen.storyboard in Resources */,
+				7553CC2020CA4E9000140A3E /* Assets.xcassets in Resources */,
+				7553CC1E20CA4E9000140A3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7553CC2920CA4E9000140A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7553CC3420CA4E9000140A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7553CC0F20CA4E8F00140A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750EECEF20CE114A00640F16 /* ReplicatorHudView.m in Sources */,
+				75B5DDB320CFB16700BF250D /* WordLoadingView.m in Sources */,
+				7553CC1B20CA4E9000140A3E /* ViewController.m in Sources */,
+				7553CC2620CA4E9000140A3E /* main.m in Sources */,
+				7553CC4A20CA689800140A3E /* ReplicatorMusicAnimationView.m in Sources */,
+				7553CC1820CA4E9000140A3E /* AppDelegate.m in Sources */,
+				750EECF220CE239A00640F16 /* LoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7553CC2720CA4E9000140A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7553CC3020CA4E9000140A3E /* ReplicatorAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7553CC3220CA4E9000140A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7553CC3B20CA4E9000140A3E /* ReplicatorAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7553CC2D20CA4E9000140A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7553CC1220CA4E8F00140A3E /* ReplicatorAnimation */;
+			targetProxy = 7553CC2C20CA4E9000140A3E /* PBXContainerItemProxy */;
+		};
+		7553CC3820CA4E9000140A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7553CC1220CA4E8F00140A3E /* ReplicatorAnimation */;
+			targetProxy = 7553CC3720CA4E9000140A3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7553CC1C20CA4E9000140A3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7553CC1D20CA4E9000140A3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7553CC2120CA4E9000140A3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7553CC2220CA4E9000140A3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7553CC3D20CA4E9000140A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7553CC3E20CA4E9000140A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7553CC4020CA4E9000140A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YC78659G27;
+				INFOPLIST_FILE = ReplicatorAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daqsoft.ReplicatorAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7553CC4120CA4E9000140A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YC78659G27;
+				INFOPLIST_FILE = ReplicatorAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daqsoft.ReplicatorAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7553CC4320CA4E9000140A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReplicatorAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daqsoft.ReplicatorAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplicatorAnimation.app/ReplicatorAnimation";
+			};
+			name = Debug;
+		};
+		7553CC4420CA4E9000140A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReplicatorAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daqsoft.ReplicatorAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplicatorAnimation.app/ReplicatorAnimation";
+			};
+			name = Release;
+		};
+		7553CC4620CA4E9000140A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReplicatorAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daqsoft.ReplicatorAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReplicatorAnimation;
+			};
+			name = Debug;
+		};
+		7553CC4720CA4E9000140A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReplicatorAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daqsoft.ReplicatorAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReplicatorAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7553CC0E20CA4E8F00140A3E /* Build configuration list for PBXProject "ReplicatorAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7553CC3D20CA4E9000140A3E /* Debug */,
+				7553CC3E20CA4E9000140A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7553CC3F20CA4E9000140A3E /* Build configuration list for PBXNativeTarget "ReplicatorAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7553CC4020CA4E9000140A3E /* Debug */,
+				7553CC4120CA4E9000140A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7553CC4220CA4E9000140A3E /* Build configuration list for PBXNativeTarget "ReplicatorAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7553CC4320CA4E9000140A3E /* Debug */,
+				7553CC4420CA4E9000140A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7553CC4520CA4E9000140A3E /* Build configuration list for PBXNativeTarget "ReplicatorAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7553CC4620CA4E9000140A3E /* Debug */,
+				7553CC4720CA4E9000140A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7553CC0B20CA4E8F00140A3E /* Project object */;
+}
