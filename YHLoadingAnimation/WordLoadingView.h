@@ -49,7 +49,7 @@ typedef NS_ENUM(NSInteger, WordLoadingType){
 @property (strong, nonatomic) UIColor *wordColor;
 
 /**
- *
+ * 字体大小
  */
 @property (assign, nonatomic) CGFloat fontSize;
 @end
