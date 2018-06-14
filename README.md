@@ -23,3 +23,12 @@ WordLoadingView *wordLoadingView = [[WordLoadingView alloc] initWithFrame:CGRect
 LoadingView *loadingView = [[LoadingView alloc] initWithFrame:CGRectMake(10, 150, 45, 45)];
 ```
 ![(LoadingAnimation)](http://bmob-cdn-15727.b0.upaiyun.com/2018/06/14/cf9d94ff40b16389804ae1767b992877.gif)
+
+## 安装方式
+### 使用cocoapods
+`pod 'YHLoadingAnimation'`
+
+### 手动安装
+拖动YHLoadingAnimation文件到工程中
+
+
