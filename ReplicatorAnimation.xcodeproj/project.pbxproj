@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		750EECEF20CE114A00640F16 /* ReplicatorHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 750EECEE20CE114A00640F16 /* ReplicatorHudView.m */; };
-		750EECF220CE239A00640F16 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 750EECF120CE239A00640F16 /* LoadingView.m */; };
 		7553CC1820CA4E9000140A3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC1720CA4E9000140A3E /* AppDelegate.m */; };
 		7553CC1B20CA4E9000140A3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC1A20CA4E9000140A3E /* ViewController.m */; };
 		7553CC1E20CA4E9000140A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7553CC1C20CA4E9000140A3E /* Main.storyboard */; };
@@ -17,8 +15,10 @@
 		7553CC2620CA4E9000140A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC2520CA4E9000140A3E /* main.m */; };
 		7553CC3020CA4E9000140A3E /* ReplicatorAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC2F20CA4E9000140A3E /* ReplicatorAnimationTests.m */; };
 		7553CC3B20CA4E9000140A3E /* ReplicatorAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC3A20CA4E9000140A3E /* ReplicatorAnimationUITests.m */; };
-		7553CC4A20CA689800140A3E /* ReplicatorMusicAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7553CC4920CA689800140A3E /* ReplicatorMusicAnimationView.m */; };
-		75B5DDB320CFB16700BF250D /* WordLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B5DDB220CFB16700BF250D /* WordLoadingView.m */; };
+		7555A38D20D136C9003AABB4 /* ReplicatorMusicAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7555A38620D136C9003AABB4 /* ReplicatorMusicAnimationView.m */; };
+		7555A38E20D136C9003AABB4 /* WordLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7555A38720D136C9003AABB4 /* WordLoadingView.m */; };
+		7555A38F20D136C9003AABB4 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7555A38920D136C9003AABB4 /* LoadingView.m */; };
+		7555A39020D136C9003AABB4 /* ReplicatorHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7555A38A20D136C9003AABB4 /* ReplicatorHudView.m */; };
 		75B5DDB620CFDCA200BF250D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B5DDB520CFDCA200BF250D /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,10 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		750EECED20CE114A00640F16 /* ReplicatorHudView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplicatorHudView.h; sourceTree = "<group>"; };
-		750EECEE20CE114A00640F16 /* ReplicatorHudView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorHudView.m; sourceTree = "<group>"; };
-		750EECF020CE239A00640F16 /* LoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
-		750EECF120CE239A00640F16 /* LoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
 		7553CC1320CA4E9000140A3E /* ReplicatorAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReplicatorAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7553CC1620CA4E9000140A3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7553CC1720CA4E9000140A3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,10 +56,14 @@
 		7553CC3620CA4E9000140A3E /* ReplicatorAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplicatorAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7553CC3A20CA4E9000140A3E /* ReplicatorAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorAnimationUITests.m; sourceTree = "<group>"; };
 		7553CC3C20CA4E9000140A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7553CC4820CA689800140A3E /* ReplicatorMusicAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplicatorMusicAnimationView.h; sourceTree = "<group>"; };
-		7553CC4920CA689800140A3E /* ReplicatorMusicAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplicatorMusicAnimationView.m; sourceTree = "<group>"; };
-		75B5DDB120CFB16700BF250D /* WordLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordLoadingView.h; sourceTree = "<group>"; };
-		75B5DDB220CFB16700BF250D /* WordLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordLoadingView.m; sourceTree = "<group>"; };
+		7555A38520D136C9003AABB4 /* WordLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WordLoadingView.h; path = YHLoadingAnimation/WordLoadingView.h; sourceTree = SOURCE_ROOT; };
+		7555A38620D136C9003AABB4 /* ReplicatorMusicAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReplicatorMusicAnimationView.m; path = YHLoadingAnimation/ReplicatorMusicAnimationView.m; sourceTree = SOURCE_ROOT; };
+		7555A38720D136C9003AABB4 /* WordLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WordLoadingView.m; path = YHLoadingAnimation/WordLoadingView.m; sourceTree = SOURCE_ROOT; };
+		7555A38820D136C9003AABB4 /* ReplicatorHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReplicatorHudView.h; path = YHLoadingAnimation/ReplicatorHudView.h; sourceTree = SOURCE_ROOT; };
+		7555A38920D136C9003AABB4 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingView.m; path = YHLoadingAnimation/LoadingView.m; sourceTree = SOURCE_ROOT; };
+		7555A38A20D136C9003AABB4 /* ReplicatorHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReplicatorHudView.m; path = YHLoadingAnimation/ReplicatorHudView.m; sourceTree = SOURCE_ROOT; };
+		7555A38B20D136C9003AABB4 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingView.h; path = YHLoadingAnimation/LoadingView.h; sourceTree = SOURCE_ROOT; };
+		7555A38C20D136C9003AABB4 /* ReplicatorMusicAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReplicatorMusicAnimationView.h; path = YHLoadingAnimation/ReplicatorMusicAnimationView.h; sourceTree = SOURCE_ROOT; };
 		75B5DDB520CFDCA200BF250D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -96,7 +96,6 @@
 		7553CC0A20CA4E8F00140A3E = {
 			isa = PBXGroup;
 			children = (
-				7555A38320D126B2003AABB4 /* YHLoadingAnimation */,
 				7553CC1520CA4E9000140A3E /* ReplicatorAnimation */,
 				7553CC2E20CA4E9000140A3E /* ReplicatorAnimationTests */,
 				7553CC3920CA4E9000140A3E /* ReplicatorAnimationUITests */,
@@ -118,6 +117,7 @@
 		7553CC1520CA4E9000140A3E /* ReplicatorAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				7555A38420D1369A003AABB4 /* YHLoadingAnimation */,
 				7553CC1620CA4E9000140A3E /* AppDelegate.h */,
 				7553CC1720CA4E9000140A3E /* AppDelegate.m */,
 				7553CC1920CA4E9000140A3E /* ViewController.h */,
@@ -149,17 +149,17 @@
 			path = ReplicatorAnimationUITests;
 			sourceTree = "<group>";
 		};
-		7555A38320D126B2003AABB4 /* YHLoadingAnimation */ = {
+		7555A38420D1369A003AABB4 /* YHLoadingAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				7553CC4820CA689800140A3E /* ReplicatorMusicAnimationView.h */,
-				7553CC4920CA689800140A3E /* ReplicatorMusicAnimationView.m */,
-				75B5DDB120CFB16700BF250D /* WordLoadingView.h */,
-				75B5DDB220CFB16700BF250D /* WordLoadingView.m */,
-				750EECED20CE114A00640F16 /* ReplicatorHudView.h */,
-				750EECEE20CE114A00640F16 /* ReplicatorHudView.m */,
-				750EECF020CE239A00640F16 /* LoadingView.h */,
-				750EECF120CE239A00640F16 /* LoadingView.m */,
+				7555A38B20D136C9003AABB4 /* LoadingView.h */,
+				7555A38920D136C9003AABB4 /* LoadingView.m */,
+				7555A38820D136C9003AABB4 /* ReplicatorHudView.h */,
+				7555A38A20D136C9003AABB4 /* ReplicatorHudView.m */,
+				7555A38C20D136C9003AABB4 /* ReplicatorMusicAnimationView.h */,
+				7555A38620D136C9003AABB4 /* ReplicatorMusicAnimationView.m */,
+				7555A38520D136C9003AABB4 /* WordLoadingView.h */,
+				7555A38720D136C9003AABB4 /* WordLoadingView.m */,
 			);
 			path = YHLoadingAnimation;
 			sourceTree = "<group>";
@@ -305,13 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				750EECEF20CE114A00640F16 /* ReplicatorHudView.m in Sources */,
-				75B5DDB320CFB16700BF250D /* WordLoadingView.m in Sources */,
+				7555A39020D136C9003AABB4 /* ReplicatorHudView.m in Sources */,
+				7555A38E20D136C9003AABB4 /* WordLoadingView.m in Sources */,
+				7555A38F20D136C9003AABB4 /* LoadingView.m in Sources */,
 				7553CC1B20CA4E9000140A3E /* ViewController.m in Sources */,
 				7553CC2620CA4E9000140A3E /* main.m in Sources */,
-				7553CC4A20CA689800140A3E /* ReplicatorMusicAnimationView.m in Sources */,
+				7555A38D20D136C9003AABB4 /* ReplicatorMusicAnimationView.m in Sources */,
 				7553CC1820CA4E9000140A3E /* AppDelegate.m in Sources */,
-				750EECF220CE239A00640F16 /* LoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
